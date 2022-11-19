@@ -16,7 +16,7 @@
 
 .header__logo {
   position:absolute;
-  top: 30px; 
+  top: 30px;
   left: 64px;
   background: url("../images/logo_place_header.svg");
   width: 228px;
@@ -280,7 +280,6 @@
   display:flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  list-style: none;
   z-index: 2;
   position: relative;
 }
@@ -316,7 +315,6 @@
   display:flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  list-style: none;
 }
 
 .kaufman__table_second-line_cell_theme_dark {
