@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Проектная работа 1</title>
-    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body>
-  <main class="page">
+  <body class="page">
     <header class="header">
-        <div class="logo header__logo"></div>
+        <div class="logo logo_place_header"></div>
         <h1 class="header__title">Научиться учиться</h1>
         <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? 
             <a href="/" class="header__link">Узнать &rarr;</a>
         </p>
-        <img src="./images/two_again.png" alt="Снова двойка" class="main-illustration"/>
+        <img src="./images/two_again.png" alt="Снова двойка" class="header__main-illustration"/>
         <div class="header__square-pic"></div>
     </header>
-    <section class="description content__description">
+    <main class="content">
+    <section class="description">
       <div class="two-columns">
-        <div class="two-columns__brief">Главные проблемы в обучении</div>
+        <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
         <div class="two-columns__main-text">
           <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать
             материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше
@@ -40,113 +40,112 @@
       </div>
     </section>
     <section class="digits">
-<h3 class="dijits__section-title">Цифры и факты</h3>
-<h3 class="dijits__section-subtitle">Про учёбу и мозг</h3>
-<ul class="digits__table">
-  <li class="dijits__table_cell">
-    <h3 class="dijits__table_heading">86 миллиардов</h3>
-    <p class="dijits__table_text">Число нейронов в мозге человека</p>
+<h2 class="section-title">Цифры и факты</h2>
+<h3 class="section-subtitle">Про учёбу и мозг</h3>
+<ul class="table">
+  <li class="table__cell">
+    <h3 class="table__heading">86 миллиардов</h3>
+    <p class="table__text">Число нейронов в мозге человека</p>
   </li>
-  <li class="dijits__table_cell">
-    <h3 class="dijits__table_heading">2,1 миллиарда</h3>
-    <p class="dijits__table_text">Число нуждающихся в повышении квалификации</p>
-    <p class="dijits__table_text">Всемирный Банк, 2017</p>
+  <li class="table__cell">
+    <h3 class="table__heading">2,1 миллиарда</h3>
+    <p class="table__text">Число нуждающихся в повышении квалификации</p>
+    <p class="table__text">Всемирный Банк, 2017</p>
   </li>
-  <li class="dijits__table_cell">
-    <h3 class="dijits__table_heading">1000 терабайт</h3>
-    <p class="dijits__table_text">Объём памяти человека</p>
+  <li class="table__cell">
+    <h3 class="table__heading">1000 терабайт</h3>
+    <p class="table__text">Объём памяти человека</p>
   </li>
-  <li class="dijits__table_cell">
-    <h3 class="dijits__table_heading">500 триллионов</h3>
-    <p class="dijits__table_text">Число ответственных за обучение нервных синапсов у взрослого человека</p>
+  <li class="table__cell">
+    <h3 class="table__heading">500 триллионов</h3>
+    <p class="table__text">Число ответственных за обучение нервных синапсов у взрослого человека</p>
   </li>
 </ul>
-<ul class="table__second-line">
-<li class="table__second-line_cell">
-  <h3 class="table__second-line_heading">420 миллионов</h3>
-  <p class="table__second-line_text">Число взрослых людей 
+<ul class="table">
+<li class="table__cell">
+  <h3 class="table__heading">420 миллионов</h3>
+  <p class="table__text">Число взрослых людей 
     моложе 25 лет, не имеющих образования для трудоустройства</p>
-  <p class="table__second-line_text">Всемирный Банк, 2017</p>
+  <p class="table__text">Всемирный Банк, 2017</p>
 </li>
-<li class="table__second-line_cell">
-  <h3 class="table__second-line_heading">17-20 лет</h3>
-  <p class="table__second-line_text">Пик обучаемости</p>
+<li class="table__cell">
+  <h3 class="table__heading">17-20 лет</h3>
+  <p class="table__text">Пик обучаемости</p>
 </li>
-<li class="table__second-line_cell">
-  <h3 class="table__second-line_heading">1885 год</h3>
-  <p class="table__second-line_text">Открытие кривой забывания</p>
+<li class="table__cell">
+  <h3 class="table__heading">1885 год</h3>
+  <p class="table__text">Открытие кривой забывания</p>
 </li>
-<li class="table__second-line_cell">
-  <h3 class="table__second-line_heading">1889 год</h3>
-  <p class="table__second-line_text">Открытие условного рефлекса</p>
+<li class="table__cell">
+  <h3 class="table__heading">1889 год</h3>
+  <p class="table__text">Открытие условного рефлекса</p>
 </li>
 </ul>
     </section>
     <section class="feynman">
-      <h4 class="feynman__title">Метод Фейнмана</h4>
-      <h4 class="feynman__subtitle">Выучить и не забыть.</h4>
+      <h2 class="feynman__title">Метод Фейнмана</h2>
+      <p class="feynman__subtitle">Выучить и не забыть.</p>
       <a class="feynman__link" href="/">Подробнее &rarr;</a>
-<div class="feynman-img" alt="Фейнман"></div>
+<div class="feynman__img"></div>
     </section>
     <section class="kaufman">
-      <h5 class="kaufman__section-title_theme_dark">Принципы обучения</h5>
-        <h5 class="kaufman__section-subtitle_theme_dark">от Джона Кауфмана</h5>
-        <ul class="kaufman__table_theme_dark">
-          <li class="kaufman__table_cell_theme_dark">
-            <h5 class="kaufman__table_heading_theme_dark">1</h5>
-            <p class="kaufman__table_text_theme_dark">Выберите привлекательный проект.</p>
+      <h2 class="section-title_theme_dark">Принципы обучения</h2>
+        <h5 class="section-subtitle_theme_dark">от Джона Кауфмана</h5>
+        <ul class="table_theme_dark">
+          <li class="table__cell_theme_dark">
+            <h5 class="table__heading_theme_dark">1</h5>
+            <p class="table__text_theme_dark">Выберите привлекательный проект.</p>
           </li>
-          <li class="kaufman__table_cell_theme_dark">
-            <h5 class="kaufman__table_heading_theme_dark">2</h5>
-            <p class="kaufman__table_text_theme_dark">Сосредоточьтесь на каком-то одном навыке.</p>
+          <li class="table__cell_theme_dark">
+            <h5 class="table__heading_theme_dark">2</h5>
+            <p class="table__text_theme_dark">Сосредоточьтесь на каком-то одном навыке.</p>
           </li>
-          <li class="kaufman__table_cell_theme_dark">
-            <h5 class="kaufman__table_heading_theme_dark">3</h5>
-            <p class="kaufman__table_text_theme_dark">Определите целевой уровень мастерства.</p>
+          <li class="table__cell_theme_dark">
+            <h5 class="table__heading_theme_dark">3</h5>
+            <p class="table__text_theme_dark">Определите целевой уровень мастерства.</p>
           </li>
-          <li class="kaufman__table_cell_theme_dark">
-            <h5 class="kaufman__table_heading_theme_dark">4</h5>
-            <p class="kaufman__table_text_theme_dark">Разбейте навык на элементы.</p>
+          <li class="table__cell_theme_dark">
+            <h5 class="table__heading_theme_dark">4</h5>
+            <p class="table__text_theme_dark">Разбейте навык на элементы.</p>
           </li>
-          <li class="kaufman__table_cell_theme_dark">
-            <h5 class="kaufman__table_heading_theme_dark">5</h5>
-            <p class="kaufman__table_text_theme_dark">Приготовьте всё необходимое для занятий.</p>
+          <li class="table__cell_theme_dark">
+            <h5 class="table__heading_theme_dark">5</h5>
+            <p class="table__text_theme_dark">Приготовьте всё необходимое для занятий.</p>
           </li>
         </ul>
-        <ul class="kaufman__table_second-line_theme_dark">
-          <li class="kaufman__table_second-line_cell_theme_dark">
-            <h5 class="kaufman__table_second-line_heading_theme_dark">6</h5>
-            <p class="kaufman__table_second-line_text_theme_dark">Устраните препятствия для знаний.</p>
+        <ul class="table_theme_dark">
+          <li class="table__cell_theme_dark">
+            <h5 class="table__heading_theme_dark">6</h5>
+            <p class="table__text_theme_dark">Устраните препятствия для знаний.</p>
           </li>
-          <li class="kaufman__table_second-line_cell_theme_dark">
-            <h5 class="kaufman__table_second-line_heading_theme_dark">7</h5>
-            <p class="kaufman__table_second-line_text_theme_dark">Выделите специальное время для знаний.</p>
+          <li class="table__cell_theme_dark">
+            <h5 class="table__heading_theme_dark">7</h5>
+            <p class="table__text_theme_dark">Выделите специальное время для знаний.</p>
           </li>
-          <li class="kaufman__table_second-line_cell_theme_dark">
-            <h5 class="kaufman__table_second-line_heading_theme_dark">8</h5>
-            <p class="kaufman__table_second-line_text_theme_dark">Создайте быстрые петли обратной связи.</p>
+          <li class="table__cell_theme_dark">
+            <h5 class="table__heading_theme_dark">8</h5>
+            <p class="table__text_theme_dark">Создайте быстрые петли обратной связи.</p>
           </li>
-          <li class="kaufman__table_second-line_cell_theme_dark">
-            <h5 class="kaufman__table_second-line_heading_theme_dark">9</h5>
-            <p class="kaufman__table_second-line_text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
+          <li class="table__cell_theme_dark">
+            <h5 class="table__heading_theme_dark">9</h5>
+            <p class="table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
           </li>
-          <li class="kaufman__table_second-line_cell_theme_dark">
-            <h5 class="kaufman__table_second-line_heading_theme_dark">10</h5>
-            <p class="kaufman__table_second-line_text_theme_dark">Уделяйте внимание количеству и скорости.</p>
+          <li class="table__cell_theme_dark">
+            <h5 class="table__heading_theme_dark">10</h5>
+            <p class="table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
         <div class="kaufman__triangle"></div>
     </section>
-  </main>
-  <footer class="footer content__footer">
+    </main>
+  <footer class="footer">
     <div class="footer__columns">
       <div class="footer__column footer__column_content_copyright">
-        <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt='Логотип "Яндекс Практикум"'
-             width="183" height="35">
+        <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt='Логотип "Яндекс Практикум"'>
         <p class="footer__author">&copy; Виктор Абанькин</p>
       </div>
-      <div class="footer__column footer__column_content_info">
-        <div class="footer__column-heading">О практикуме</div>
+      <nav class="footer__column footer__column_content_info">
+        <h6 class="footer__column-heading">О практикуме</h6>
         <ul class="footer__column-links">
           <li>
             <a class="footer__column-link" href="#">Главная</a>
@@ -158,25 +157,25 @@
             <a class="footer__column-link" href="#">Наставники</a>
           </li>
         </ul>
-      </div>
+      </nav>
       <div class="footer__column footer__column_content_social">
-        <div class="footer__column-heading">Соцсети</div>
+        <h6 class="footer__column-heading">Соцсети</h6>
         <ul class="footer__column-links">
           <li>
             <a class="footer__column-link" href="#">
-              <i class="footer__icon footer__icon_type_youtube"></i>
+              <img src="./images/youtube.svg" alt="иконка Ютьюб" class="footer__icon footer__social-icon_type_youtube"></img>
               YouTube
             </a>
           </li>
           <li>
             <a class="footer__column-link" href="#">
-              <i class="footer__icon footer__icon_type_vk"></i>
+              <img src="./images/vk_color_white.svg" alt="иконка ВКонтакте" class="footer__icon footer__social-icon_type_vk"></img>
               ВКонтакте
             </a>
           </li>
           <li>
             <a class="footer__column-link" href="#">
-              <i class="footer__icon footer__icon_type_tiktok"></i>
+              <img src="./images/tiktok.svg" alt="иконка ТикТок" class="footer__icon footer__social-icon_type_tiktok"></img>
               TikTok
             </a>
           </li>
