@@ -173,8 +173,8 @@
   font-size: 24px;
   font-weight: 600;
   list-style: none;
-  margin-bottom: 20px;
   margin: 0;
+  margin-bottom: 20px;
   padding: 0;
 }
 
@@ -184,8 +184,8 @@
   font-weight: normal;
   list-style: none;
   width: 250px;
-  margin-bottom: 20px;
   margin: 0;
+  margin-bottom: 20px;
   padding: 0;
 }
 
@@ -276,7 +276,6 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin-bottom: 80px;
   text-align: center;
   list-style: none;
   color: white;
@@ -299,6 +298,7 @@
   width: 200px;
   margin-bottom: 0;
   list-style: none;
+  margin-top: 80px;
 }
 
 .table__heading_theme_dark {
@@ -366,11 +366,11 @@
 }
 
 .footer__column-heading {
+  margin: 0;
   margin-bottom: 20px;
   font-size: 18px;
   line-height: 30px;
   font-weight: 600;
-  margin: 0;
   padding: 0;
 }
 
@@ -383,7 +383,6 @@
 }
 
 .footer__column-link {
-  
   display: flex;
   align-items: center;
   column-gap: 10px;
