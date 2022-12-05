@@ -1,8 +1,22 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg)
+  }
+  to {
+    transform: rotate(360deg)
+  }
+}
+
 .page {
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
+}
+
+a:hover {
+  transition: 1s ease;
+  opacity: 0.6;
 }
 
 .header {
@@ -15,6 +29,7 @@
   background-color: #f2f2f2;
   height: 100vh;
   margin-bottom: 100px;
+  overflow: hidden;
 }
 
 .logo_place_header {
@@ -48,6 +63,8 @@
   top: 64px;
   right: 0px;
   z-index: 0;
+  transform: rotate(-15deg);
+  animation: rotation 20s linear infinite;
 }
 
 .header__subtitle {
@@ -86,6 +103,7 @@
   display: flex;
   justify-content: space-between;
   width: 80%;
+  margin: 0;
 }
 
 .two-columns__span-accent {
@@ -120,12 +138,110 @@
   margin-bottom: 0;
 }
 
+.techniques {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+}
+
+.cards {
+  width: 920px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: 0 auto;
+  
+}
+
+.cards_item {
+  text-align: center;
+  width: 240px;
+  margin-bottom: 0;
+  list-style: none;
+  margin-top: 60px;
+  width: 240px;
+  margin-right: 100px;
+  box-sizing: border-box;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  margin: 60px 40px 43px;
+  list-style: none;
+  border-radius: 50%;
+}
+
+.cards__title {
+  text-align: center;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.cards__description {
+  text-align: center;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  width: 240px;
+  margin-bottom: 60px;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0 auto;
+}
+
+.video__iframes {
+  margin: 0;
+  padding: 0;
+  column-gap: 20px;
+  display: flex;
+  margin-top: 50px;
+  list-style: none;
+}
+
+.video__iframe {
+  border: 0;
+  width: 515px;
+  height: 316px;
+  margin-right: 20px;
+  margin-bottom: -50px;
+}
+
+.video__iframe:last-child {
+  margin-right: 0;
+}
+
+.oakley {
+  padding-top: 160px;
+  background-color: #f2f2f2;
+  justify-content: center;
+  display: flex;
+}
+
 .section {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 1100px;
   list-style: none;
+}
+
+.digits {
+  padding-bottom: 100px;
 }
 
 .table {
@@ -203,7 +319,6 @@
   background-position: left bottom;
   background-size: 867px 637px;
   box-sizing: border-box;
-  margin-top: 100px;
 }
 
 .feynman__title {
@@ -248,6 +363,88 @@
   height: 637px;
   left: 0px;
   bottom: 0px;
+}
+
+.khan {
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f2f2f2;
+  padding-top: 105px;
+}
+
+.khan__container {
+  width: 80%;
+  margin: auto;
+}
+
+.khan__author {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+}
+
+.khan__quote {
+  margin: 0;
+  padding: 0;
+  width: 790px;
+  margin-bottom: 36px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__quote-author {
+  margin: 0;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.khan__quote-author-subline {
+  margin: 0;
+  padding: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 68px;
+}
+
+.khan__book-container {
+  display: flex;
+}
+
+.khan__book-pic {
+ margin: 0;
+ padding: 0;
+ margin-right: 48px;
+ height: 620px;
+ width: 608px;
+}
+
+.khan__buy-link {
+  margin: 0;
+  padding: 0;
+  color: #2f80ed;
+  text-decoration: none;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  
 }
 
 .kaufman {
@@ -327,6 +524,41 @@
   right: -210px;
   top: 0px;
   background-size: cover;
+  animation: rotation 20s ease-in-out infinite;
+}
+
+.resouces {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.resources__section-title {
+  margin-bottom: 20px;
+}
+
+.resources__section-subtitle {
+  margin-bottom: 80px;
+  
+}
+
+.resources__logo-zone {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 80px;
+  margin-bottom: 217px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resources__link {
+  width: 270px;
+  height: 38px;
 }
 
 .footer {
