@@ -1,0 +1,12 @@
+.table_theme_dark {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  list-style: none;
+  color: white;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  z-index: 2;
+  position: relative;
+}
