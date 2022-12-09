@@ -26,7 +26,7 @@
 @import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 
 @import url(../blocks/cards/cards.css);
-@import url(../blocks/cards/__item/cards_item.css);
+@import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__image/cards__image.css);
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__description/cards__description.css);
@@ -81,13 +81,9 @@
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
-@import url(../blocks/footer/__column-link/_type/footer__column-link_type_with-icon.css);
-@import url(../blocks/footer/__icon/footer__icon.css);
 
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/__place/logo_place_footer.css);
-@import url(../blocks/logo/__place/logo_place_header.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
 
-@import url(../../how-to-learn/blocks/rotation/rotation.css)
+@import url(../blocks/rotation/rotation.css)
